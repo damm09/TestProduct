@@ -1,0 +1,39 @@
+{
+  "name": "p2-cms-integration-server",
+  "version": "1.0.0",
+  "description": "CMS Integration - Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit --runInBand",
+    "dev": "npx nodemon ./bin/www",
+    "rerun": "npx sequelize db:drop && npx sequelize db:create && npx sequelize db:migrate && npx sequelize db:seed:all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hck-49-witty-fox/p2-cms-integration-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hck-49-witty-fox/p2-cms-integration-server/issues"
+  },
+  "homepage": "https://github.com/hck-49-witty-fox/p2-cms-integration-server#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "google-auth-library": "^8.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.4"
+  },
+  "devDependencies": {
+    "jest": "^29.0.2",
+    "nodemon": "^2.0.19",
+    "sequelize-cli": "^6.4.1",
+    "supertest": "^6.2.4"
+  }
+}

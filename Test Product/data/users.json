@@ -1,0 +1,26 @@
+[
+    {
+        "username": "bamz",
+        "email": "bambang@mail.com",
+        "password": "bamz1234",
+        "role": "Admin",
+        "phoneNumber": "081212121313",
+        "address": "Jl. Sultan Iskandar"
+    },
+    {
+        "username": "santoz",
+        "email": "santoso@mail.com",
+        "password": "santo1234",
+        "role": "Staff",
+        "phoneNumber": "081313131212",
+        "address": "Jl. Sultan Iskandar"
+    },
+    {
+        "username": "test",
+        "email": "test@mail.com",
+        "password": "test1234",
+        "role": "Customer",
+        "phoneNumber": "081313131212",
+        "address": "Jl. Sultan Iskandar"
+    }
+]
